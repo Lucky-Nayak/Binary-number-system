@@ -1,13 +1,9 @@
 # include <iostream>
 using namespace std;
  
-
 void print (int binary,int originalnum){
     cout << "the binary of "<< originalnum <<" is "<< binary <<endl;
 }
-
-
-
 
 int decimaltobinary (int decinum){
     int original=decinum;
@@ -27,5 +23,6 @@ int decimaltobinary (int decinum){
 int main (){
 
    decimaltobinary(69);
+    cout<<endl;
     return 0;
 }
